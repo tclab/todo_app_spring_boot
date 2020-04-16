@@ -16,7 +16,7 @@ public class HelloWorldController {
 
   @GetMapping(path = "/hello-world-bean")
   public HelloWorldBean helloWorldBean() {
-    return new HelloWorldBean("Hello world");
+    return new HelloWorldBean("Hello world heroku deploy test");
   }
 
   /*
