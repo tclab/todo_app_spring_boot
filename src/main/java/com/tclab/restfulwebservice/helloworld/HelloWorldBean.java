@@ -1,4 +1,4 @@
-package com.tclab.restfulwebservice;
+package com.tclab.restfulwebservice.helloworld;
 
 public class HelloWorldBean {
 
