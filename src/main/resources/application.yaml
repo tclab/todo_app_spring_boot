@@ -5,12 +5,20 @@ logging:
     org:
       springframework: info
 
-#Spring security basic auth config
+#Spring config
 #spring:
 #  security:
 #    user:
 #      name: juan
 #      password: admin
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
 
 #Authentication config
 jwt:
