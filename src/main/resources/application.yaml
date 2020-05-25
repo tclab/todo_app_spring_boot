@@ -6,16 +6,25 @@ logging:
       springframework: info
 
 #Spring config
+
+#Basic authentication
 #spring:
 #  security:
 #    user:
 #      name: juan
 #      password: admin
+
+#Spring JPA
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:postgresql://ec2-3-222-150-253.compute-1.amazonaws.com:5432/djf7g90psnadq
+    username: mcvdxsxtxhrrkc
+    password: a05081cfe5151b4728c79d83525e4f09eb5ff43e7705ebe1fd1dfbb5208eef29
+    driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
+    database: postgresql
+    generate-ddl: true
   h2:
     console:
       enabled: true
