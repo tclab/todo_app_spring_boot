@@ -24,7 +24,7 @@ spring:
   jpa:
     show-sql: true
     database: postgresql
-    generate-ddl: true
+    generate-ddl: false
   h2:
     console:
       enabled: true
