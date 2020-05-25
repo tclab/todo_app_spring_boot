@@ -1,0 +1,12 @@
+
+logging:
+  level:
+    org:
+      springframework: info
+
+
+spring:
+  security:
+    user:
+      name: juan
+      password: admin
