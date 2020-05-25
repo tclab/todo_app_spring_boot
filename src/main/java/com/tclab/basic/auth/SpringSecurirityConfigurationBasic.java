@@ -1,4 +1,4 @@
-package com.tclab.restfulwebservice.basic.auth;
+package com.tclab.basic.auth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

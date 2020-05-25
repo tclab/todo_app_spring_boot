@@ -1,4 +1,4 @@
-package com.tclab.restfulwebservice.basic.auth;
+package com.tclab.basic.auth;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

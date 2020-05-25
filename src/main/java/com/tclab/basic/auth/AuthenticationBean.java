@@ -1,4 +1,4 @@
-package com.tclab.restfulwebservice.basic.auth;
+package com.tclab.basic.auth;
 
 public class AuthenticationBean {
 
